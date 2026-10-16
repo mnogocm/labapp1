@@ -1,0 +1,45 @@
+@startuml
+class Product {
+  - title: str
+  - quantity: float
+  - measure: str
+  + to_dict(): dict
+  + from_dict(data): Product
+}
+class CookingStep {
+  - position: int
+  - text: str
+  + to_dict(): dict
+  + from_dict(data): CookingStep
+}
+class DishRecipe {
+  - number: int
+  - title: str
+  - category: str
+  - minutes: int
+  - servings: int
+  - products: List[Product]
+  - steps: List[CookingStep]
+  + add_product(product): None
+  + add_step(step): None
+  + to_dict(): dict
+  + from_dict(data): DishRecipe
+}
+class Cookbook {
+  - recipes: List[DishRecipe]
+  + find(number): Optional[DishRecipe]
+  + get_all(): List[DishRecipe]
+  + add(recipe): None
+  + update(...): None
+  + delete(number): None
+  + save_json(filename): None
+  + load_json(filename): None
+  + save_xml(filename): None
+  + load_xml(filename): None
+}
+class RecipeException
+RecipeException --|> Exception
+Cookbook "1" o-- "0..*" DishRecipe
+DishRecipe "1" *-- "0..*" Product
+DishRecipe "1" *-- "0..*" CookingStep
+@enduml

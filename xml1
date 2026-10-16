@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cookbook>
+    <recipe>
+        <number>1</number>
+        <title>Овощной суп</title>
+        <category>Первое блюдо</category>
+        <minutes>40</minutes>
+        <servings>3</servings>
+        <products>
+            <product>
+                <title>Картофель</title>
+                <quantity>3</quantity>
+                <measure>шт.</measure>
+            </product>
+            <product>
+                <title>Морковь</title>
+                <quantity>1</quantity>
+                <measure>шт.</measure>
+            </product>
+            <product>
+                <title>Вода</title>
+                <quantity>1.5</quantity>
+                <measure>л</measure>
+            </product>
+        </products>
+        <steps>
+            <step>
+                <position>1</position>
+                <text>Нарезать овощи.</text>
+            </step>
+            <step>
+                <position>2</position>
+                <text>Варить овощи в воде до готовности.</text>
+            </step>
+        </steps>
+    </recipe>
+    <recipe>
+        <number>2</number>
+        <title>Овощной салат</title>
+        <category>Салат</category>
+        <minutes>15</minutes>
+        <servings>2</servings>
+        <products>
+            <product>
+                <title>Помидоры</title>
+                <quantity>2</quantity>
+                <measure>шт.</measure>
+            </product>
+            <product>
+                <title>Огурцы</title>
+                <quantity>2</quantity>
+                <measure>шт.</measure>
+            </product>
+        </products>
+        <steps>
+            <step>
+                <position>1</position>
+                <text>Нарезать овощи и перемешать.</text>
+            </step>
+        </steps>
+    </recipe>
+</cookbook>

@@ -1,0 +1,61 @@
+[
+    {
+        "number": 1,
+        "title": "Овощной суп",
+        "category": "Первое блюдо",
+        "minutes": 40,
+        "servings": 3,
+        "products": [
+            {
+                "title": "Картофель",
+                "quantity": 3,
+                "measure": "шт."
+            },
+            {
+                "title": "Морковь",
+                "quantity": 1,
+                "measure": "шт."
+            },
+            {
+                "title": "Вода",
+                "quantity": 1.5,
+                "measure": "л"
+            }
+        ],
+        "steps": [
+            {
+                "position": 1,
+                "text": "Нарезать овощи."
+            },
+            {
+                "position": 2,
+                "text": "Варить овощи в воде до готовности."
+            }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "Овощной салат",
+        "category": "Салат",
+        "minutes": 15,
+        "servings": 2,
+        "products": [
+            {
+                "title": "Помидоры",
+                "quantity": 2,
+                "measure": "шт."
+            },
+            {
+                "title": "Огурцы",
+                "quantity": 2,
+                "measure": "шт."
+            }
+        ],
+        "steps": [
+            {
+                "position": 1,
+                "text": "Нарезать овощи и перемешать."
+            }
+        ]
+    }
+]
